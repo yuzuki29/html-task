@@ -1,0 +1,18 @@
+@charset "utf-8";
+fieldset {
+    margin: 10px;
+}
+
+body{
+    font-size: 0.7rem;
+}
+
+input[type]{
+    margin: 5px;
+}
+
+p{
+    margin: 0.5px;
+}
+
+

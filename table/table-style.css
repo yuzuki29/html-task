@@ -1,0 +1,30 @@
+body{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+width: 85%;
+margin: 40px auto;
+border-collapse: collapse;
+}
+
+th, td {
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #000000f9;
+    }
+    
+    th {
+    background-color: #fffffff9;
+    }
+    
+    img {
+    max-width: 350px;
+    max-height: 350px;
+    }
+    
+    td{
+    color: hsl(0, 0%, 0%);
+    }
+    
