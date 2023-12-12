@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.container {
+    display: flex;
+}
+
+header {
+    margin-top: none;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+
+header li {
+    flex: 1;
+    text-align: center;
+    border: solid 1px beige;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    padding: 0.7rem 0.5rem;
+
+}
+
+.menu a:hover {
+    background: rgb(183, 241, 223);
+    color: #fff;
+
+}
+
+li ,p{
+    list-style: none;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(252, 250, 205);
+}
