@@ -14,7 +14,7 @@
         <table>
             <tr>
                 <th>ID<span class = "bg-red">必須</span> <span class="font-small">(メールアドレス)</span></th>
-                <td><input type="email" placeholder="xxx@morijyobi.ac.jp" size="30" required></td>
+                <td><input name="email" type="email" placeholder="xxx@morijyobi.ac.jp" size="30" required></td>
             </tr>
 
             <tr>
@@ -28,8 +28,8 @@
 
             <tr>
                 <th>氏名<span class="bg-red">必須</span></th>
-                <td>姓：<input type="text" placeholder="例：盛岡" required>
-                    名：<input type="text" placeholder="例：太郎" required>
+                <td>姓：<input name="lastname" type="text" placeholder="例：盛岡" required>
+                    名：<input name="firstname" type="text" placeholder="例：太郎" required>
                 </td>
             </tr>
 
@@ -38,15 +38,15 @@
                 <td>
                     〒<input type="text" name="disabled" value="020_0021" class="bg-brack" size="8" disabled><br>
                     <input type="text" name="disabled" value="岩手県盛岡市中央通3丁目" class="bg-brack" disabled><br>
-                    <input type="text" placeholder="番地"><br>
-                    <input type="text" placeholder="建物名" size="30">
+                    <input type="text" name="banti" placeholder="番地"><br>
+                    <input type="text" name="building" placeholder="建物名" size="30">
                 </td>
             </tr>
 
             <tr>
                 <th>携帯電話番号<span class="bg-red">必須</span><span class="font-small">(ハイフンなし)</span></th>
                 <td>
-                    <input type="tel" required>
+                    <input name="tel" type="tel" required>
                 </td>
             </tr>
 
@@ -54,14 +54,14 @@
                 <th>学科・学年<span class="bg-red">必須</span></th>
                 <td>
                     学科：
-                    <select required>
+                    <select name="Department" required>
                         <option value="">学科を選択して下さい</option>
                         <option value="システム系学科">システム系学科</option>
                         <option value="ビジネス系学科">ビジネス系学科</option>
                         <option value="デザイン系学科">デザイン系学科</option>
                     </select>
                     学年：
-                    <select required>
+                    <select name="School year" required>
                         <option value="">学年を選択して下さい</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
